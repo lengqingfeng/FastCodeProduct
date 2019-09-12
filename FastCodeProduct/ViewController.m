@@ -18,6 +18,7 @@
     [super viewDidLoad];
     CGRect codeFrame = CGRectMake(15, 160,self.view.frame.size.width - 30, 60);
     FastCodeView *codeView = [[FastCodeView alloc] initWithFrame:codeFrame];
+    codeView.style = kCodeStyleWithSquare;
     [codeView showCodeView];
     [codeView didSelectCode:^(NSString * _Nullable code) {
         NSLog(@"code======%@",code);

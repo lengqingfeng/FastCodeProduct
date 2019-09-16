@@ -1,10 +1,10 @@
 # FastCodeProduct
 验证码填充
 
-## Install
+## Installation
  pod 'FastCodeView' 
  
-## User
+## Usage
   ~~~
     CGRect codeFrame = CGRectMake(15, 160,self.view.frame.size.width - 30, 60);
     FastCodeView *codeView = [[FastCodeView alloc] initWithFrame:codeFrame];
